@@ -1,0 +1,96 @@
+* {
+  font-family: orbitron;
+}
+body {
+  margin: 20px 30px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0px;
+  margin-bottom: 30px;
+}
+li {
+  font-weight: bold;
+  list-style: none;
+  display: inline-block;
+  padding: 0 10px;
+  font-size: 20px;
+}
+li:hover {
+  text-decoration: underline;
+}
+.button-group {
+  display: flex;
+  padding: 0px 15px;
+}
+.search-icon {
+}
+.nav-button {
+  border-radius: 12px;
+  padding: 5px 30px;
+  margin: 4px 2px;
+  background-color: transparent;
+}
+
+/* hero banner section */
+.hero-container {
+  display: flex;
+}
+.star,
+.square,
+.globe {
+  position: absolute;
+}
+
+.globe {
+  padding-left: 50%;
+}
+.star {
+  padding-left: 80%;
+  padding-top: 5%;
+}
+.square {
+  left: 250px;
+  top: 450px;
+  z-index: -1;
+}
+.hero-container-right {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  padding-left: 50px;
+}
+.hero-heading {
+  font-size: 50px;
+  margin-top: 140px;
+}
+
+.hero-description {
+  margin: 90px 10px;
+}
+
+.icons {
+  display: block;
+}
+img {
+  margin: 0 5px;
+}
+.contact-heading {
+  margin-top: 50px;
+}
+
+.button-email,
+.button-join {
+  border-radius: 12px;
+  padding: 5px 30px;
+  margin: 4px 2px;
+}
+.button-email {
+  background-color: #fff;
+}
+.button-join {
+  color: #fff;
+  background: #000;
+}
