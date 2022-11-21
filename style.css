@@ -1,9 +1,11 @@
 * {
   font-family: "orbitron";
 }
+
 body {
   margin: 20px 30px;
 }
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -11,6 +13,7 @@ nav {
   padding: 20px 0px;
   margin-bottom: 30px;
 }
+
 li {
   font-weight: bold;
   list-style: none;
@@ -18,15 +21,16 @@ li {
   padding: 0 10px;
   font-size: 20px;
 }
+
 li:hover {
   text-decoration: underline;
 }
+
 .button-group {
   display: flex;
   padding: 0px 15px;
 }
-.search-icon {
-}
+
 .nav-button {
   border-radius: 12px;
   padding: 5px 30px;
@@ -38,6 +42,7 @@ li:hover {
 .hero-container {
   display: flex;
 }
+
 .star,
 .square,
 .globe {
@@ -47,21 +52,25 @@ li:hover {
 .globe {
   padding-left: 50%;
 }
+
 .star {
   padding-left: 80%;
   padding-top: 5%;
 }
+
 .square {
   left: 250px;
   top: 450px;
   z-index: -1;
 }
+
 .hero-container-right {
   position: relative;
   display: inline-block;
   text-align: center;
   padding-left: 50px;
 }
+
 .hero-heading {
   font-size: 50px;
   margin-top: 140px;
@@ -74,9 +83,11 @@ li:hover {
 .icons {
   display: block;
 }
+
 img {
   margin: 0 5px;
 }
+
 .contact-heading {
   margin-top: 50px;
 }
@@ -87,9 +98,11 @@ img {
   padding: 5px 30px;
   margin: 4px 2px;
 }
+
 .button-email {
   background-color: #fff;
 }
+
 .button-join {
   color: #fff;
   background: #000;
